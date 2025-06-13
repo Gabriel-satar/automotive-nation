@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Website Info</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    header {
+      background-color: #003B4D;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 26px;
+      font-weight: bold;
+    }
+
+    .wrapper {
+      display: flex;
+      min-height: calc(100vh - 80px);
+    }
+
+    .sidebar {
+      background-color: #f0f0f0;
+      width: 220px;
+      padding: 20px;
+      border-right: 1px solid #ccc;
+    }
+
+    .sidebar a {
+      display: block;
+      color: #003B4D;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 15px 0;
+      transition: color 0.3s;
+    }
+
+    .sidebar a:hover {
+      color: #D61F36;
+    }
+
+    .sidebar .button {
+      display: block;
+      background-color: #D61F36;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 3px;
+    }
+
+    .content {
+      flex: 1;
+      padding: 40px;
+      background-color: white;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section h2 {
+      color: #003B4D;
+      margin-bottom: 10px;
+      font-size: 22px;
+    }
+
+    .section p {
+      line-height: 1.6;
+      color: #333;
+    }
+
+    @media (max-width: 768px) {
+      .wrapper {
+        flex-direction: column;
+      }
+
+      .sidebar {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #ccc;
+      }
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1000px;
+      margin: 30px auto;
+      background: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      text-align: inherit;
+    }
+  </style>
+</head>
+<body style="background-image: url(BMW_M4CS_07.jpg);
+background-repeat: no-repeat;
+background-size: 34cm;">
+<div class="container">
+  <header>Website Information</header>
+
+  <div class="wrapper">
+    <nav class="sidebar">
+      <a href="main webpage.html">Home</a>
+      <a href="feel.html">Register</a>
+      <a href="testing.html">Cars</a>
+      <a href="contact us.html">Contact</a>
+      <a href="about.html">About</a>
+      <a href="learn more.html" class="button">Learn More</a>
+    </nav>
+
+    <main class="content">
+      <section class="section" id="about">
+        <h2>About</h2>
+        <p>Welcome to AUTO NATION, your go-to platform for buying new and used cars with ease.<br>
+        We offer a wide range of vehicles, flexible financing, and expert support to make your <br>
+        car-buyying experiance simple and stress-free. AUTO NATION- where your journey begins. </p>
+      </section>
+
+      <section class="section" id="contact">
+        <h2>Our history</h2>
+       <p>our company AUTONATION begun as a small retail business involved with buyingcars from<br>
+       manufacturers and selling them at affordable prices to our home land cudstomers at Tanzania.
+       eventually over 20 years now we have expanded to dealing in Tanzania, Germany and Japan.<br>
+       We drive together towards acheiving our dreams.<br></p>
+      </section>
+
+      <section class="section" id="details">
+        <h2>Details</h2>
+        <p>This website is built using modern web technologies, ensuring speed, security, and accessibility for all users, as 
+            well as maximum and timely response and services to all our customers.
+        </p><br><p><strong>We are located at: </strong> Njiro complex,Arusha-Tanzania</p>
+        
+      </section>
+    </main>
+  </div>
+</div>
+
+</body>
+</html>
